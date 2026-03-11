@@ -1,9 +1,9 @@
 const site = {
   // --- Site Metadata ---
   meta: {
-    title: "Breeze",
-    description: "A minimal Astro theme for personal websites",
-    author: "Your Name",
+    title: "凝梦的温馨小屋",
+    description: "这里是一个待填的座右铭（确信）",
+    author: "凝梦",
     logo: "/logo.svg",
     ogImage: "/og-image.png",
     // HTML lang attribute, affects page language and date formatting
@@ -14,35 +14,35 @@ const site = {
   // --- Navigation ---
   // subtitle: decorative label shown below the name (uppercase, small text)
   navigation: [
-    { name: "Home", subtitle: "Index", href: "/" },
-    { name: "Writing", subtitle: "Blog", href: "/posts" },
-    { name: "Projects", subtitle: "Works", href: "/projects" },
-    { name: "Friends", subtitle: "Links", href: "/friends" },
-    { name: "About", subtitle: "Me", href: "/about" },
+    { name: "主页", subtitle: "Index", href: "/" },
+    { name: "博客", subtitle: "article", href: "/posts" },
+    { name: "项目", subtitle: "Works", href: "/projects" },
+    { name: "友情链接", subtitle: "Links", href: "/friends" },
+    { name: "关于", subtitle: "Me", href: "/about" },
   ],
 
   // --- Social Links ---
   social: [
-    { name: "GitHub", href: "https://github.com/your-username", icon: "mdi:github" },
-    { name: "Email", href: "mailto:hello@example.com", icon: "mdi:email" },
+      { name: "GitHub", href: "https://github.com/Coagudream", icon: "mdi:github" },
+      { name: "Email", href: "mailto:ningm968@gmail.com", icon: "mdi:email" },
   ],
 
   // --- Homepage Hero ---
   hero: {
-    greeting: "👋 Hello, I'm Breeze",
+    greeting: "你好呀，这里是凝梦",
     // Supports HTML. Use <span class="font-medium text-foreground underline decoration-primary/30"> to highlight keywords
     description:
-      'A minimal personal website theme built with <span class="font-medium text-foreground underline decoration-primary/30">Astro</span> and <span class="font-medium text-foreground underline decoration-primary/30">Tailwind CSS</span>.',
+      '一位梦想进入<span class="font-medium text-foreground underline decoration-primary/30">游戏行业</span>的普通大学生,在这里记录一些游戏开发,游戏策划和游戏项目',
     cards: [
-      { icon: "mdi:explore", label: "Status", value: "Building something cool" },
-      { icon: "mdi:location", label: "Location", value: "Earth" },
+      { icon: "mdi:explore", label: "状态", value: "求实习ing" },
+      { icon: "mdi:location", label: "地点", value: "山东" },
     ],
   },
 
   // --- Footer ---
   footer: {
     copyright: "© 2025 Breeze",
-    builtWith: "Built with Astro",
+      builtWith: "Built The Theme Breeze With Astro",
   },
 
   // --- Comments ---
@@ -98,24 +98,24 @@ const site = {
   // --- UI Labels ---
   // Customize these values to change the text displayed on pages
   labels: {
-    postsTitle: "Writing",
-    postsDescription: "Notes, thoughts, and technical musings",
-    projectsTitle: "Projects",
-    projectsDescription: "Small tools built for fun or to solve real problems.",
-    friendsTitle: "Friends",
-    friendsDescription: "Like-minded folks around the web.",
-    toolsTitle: "Stack",
-    aboutTitle: "About",
-    aboutDescription: "About this site and its author",
-    backToPosts: "Back to posts",
-    goHome: "Go Home",
-    notFoundTitle: "Page not found",
-    notFoundDescription: "The page you're looking for may have been removed or the link is broken.",
-    endOfPost: "End of Post",
-    tableOfContents: "Table of Contents",
-    searchPlaceholder: "Search posts, tags, or commands...",
-    searchNavigate: "Navigate",
-    commentSuccess: "Comment submitted",
+    postsTitle: "写作",
+    postsDescription: "笔记、想法和技术思考",
+    projectsTitle: "项目",
+    projectsDescription: "自己使用godot开发的demo",
+    friendsTitle: "友链",
+    friendsDescription: "网络上志同道合的人",
+    toolsTitle: "技术栈",
+    aboutTitle: "关于",
+    aboutDescription: "关于本站及其作者",
+    backToPosts: "返回文章",
+    goHome: "返回首页",
+    notFoundTitle: "页面未找到",
+    notFoundDescription: "您要查找的页面可能已被删除或链接已失效",
+    endOfPost: "文章结束",
+    tableOfContents: "目录",
+    searchPlaceholder: "搜索文章、标签或命令...",
+    searchNavigate: "导航",
+    commentSuccess: "评论已提交",
   },
 
   ogImage: "/og-image.png",
