@@ -4,7 +4,7 @@ const site = {
     title: "凝梦的温馨小屋",
     description: "这里是一个待填的座右铭（确信）",
     author: "凝梦",
-    logo: "/logo.svg",
+    logo: "/public/icon.svg",
     ogImage: "/og-image.png",
     // HTML lang attribute, affects page language and date formatting
     // Options: "zh-CN", "en", "ja", etc.
@@ -29,7 +29,7 @@ const site = {
 
   // --- Homepage Hero ---
   hero: {
-    greeting: "你好呀，这里是凝梦",
+      greeting: "你好呀，这里是凝梦👋",
     // Supports HTML. Use <span class="font-medium text-foreground underline decoration-primary/30"> to highlight keywords
     description:
       '一位梦想进入<span class="font-medium text-foreground underline decoration-primary/30">游戏行业</span>的普通大学生,在这里记录一些游戏开发,游戏策划和游戏项目',
@@ -68,29 +68,19 @@ const site = {
       name: "development",
       items: [
         { name: "VS Code", link: "https://code.visualstudio.com", icon: "mdi:microsoft-visual-studio-code" },
-        { name: "WebStorm", link: "https://www.jetbrains.com/webstorm", icon: "mdi:code-braces" },
-        { name: "Terminal", icon: "mdi:terminal" },
         { name: "Git", link: "https://git-scm.com", icon: "mdi:git" },
-        { name: "Docker", link: "https://www.docker.com", icon: "mdi:docker" },
-        { name: "Postman", link: "https://www.postman.com", icon: "mdi:api" },
       ]
     },
     {
       name: "design",
       items: [
-        { name: "Figma", link: "https://www.figma.com", icon: "mdi:vector-polygon" },
-        { name: "Sketch", link: "https://www.sketch.com", icon: "mdi:vector-square" },
-        { name: "Adobe XD", link: "https://www.adobe.com/products/xd.html", icon: "mdi:pencil-ruler" },
         { name: "Photoshop", link: "https://www.adobe.com/products/photoshop.html", icon: "mdi:image-edit" },
       ]
     },
     {
       name: "productivity",
       items: [
-        { name: "Notion", link: "https://www.notion.so", icon: "mdi:notebook" },
         { name: "Obsidian", link: "https://obsidian.md", icon: "mdi:diamond-stone" },
-        { name: "Raycast", link: "https://www.raycast.com", icon: "mdi:lightning-bolt" },
-        { name: "Arc Browser", link: "https://arc.net", icon: "mdi:web" },
       ]
     },
   ],
@@ -101,7 +91,7 @@ const site = {
     postsTitle: "写作",
     postsDescription: "笔记、想法和技术思考",
     projectsTitle: "项目",
-    projectsDescription: "自己使用godot开发的demo",
+    projectsDescription: "个人作品集",
     friendsTitle: "友链",
     friendsDescription: "网络上志同道合的人",
     toolsTitle: "技术栈",

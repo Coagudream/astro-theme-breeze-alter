@@ -1,24 +1,24 @@
 [
   {
-    "name": "Technology",
+    "name": "技术",
     "slug": "technology",
     "description": "Articles about web development and programming",
     "icon": "mdi:code-tags"
   },
   {
-    "name": "Design",
+    "name": "设计",
     "slug": "design",
     "description": "Thoughts on UI/UX and visual design",
     "icon": "mdi:palette"
   },
   {
-    "name": "Life",
+    "name": "生活",
     "slug": "life",
     "description": "Daily life and personal reflections",
     "icon": "mdi:coffee"
   },
   {
-    "name": "Uncategorized",
+    "name": "其他",
     "slug": "uncategorized",
     "icon": "mdi:folder"
   }
