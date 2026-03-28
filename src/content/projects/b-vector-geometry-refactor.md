@@ -5,7 +5,7 @@ description: 仿土豆兄弟的游戏框架，复刻如商店系统、属性系�
 tech: [拆解, 开发, 幸存者, godot]
 links:
   github: https://github.com/Coagudream/godot-vector-geometry-refactor
-  demo: https://astro-theme-breeze.pages.dev
+  demo: https://geometry-refactor.coagudream.com/
 status: completed
 ---
 

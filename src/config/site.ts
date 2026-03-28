@@ -4,7 +4,7 @@ const site = {
     title: "凝梦的温馨小屋",
     description: "这里是一个待填的座右铭（确信）",
     author: "凝梦",
-    logo: "/public/icon.svg",
+    logo: "/icon.svg",
     ogImage: "/og-image.png",
     // HTML lang attribute, affects page language and date formatting
     // Options: "zh-CN", "en", "ja", etc.
