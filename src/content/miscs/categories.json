@@ -18,6 +18,16 @@
     "icon": "mdi:coffee"
   },
   {
+    "name": "游戏",
+    "slug": "game",
+    "icon": "mdi:gamepad-variant"
+  },
+  {
+    "name": "感想",
+    "slug": "thought",
+    "icon": "mdi:head-dots-horizontal"
+  },
+  {
     "name": "其他",
     "slug": "uncategorized",
     "icon": "mdi:folder"
